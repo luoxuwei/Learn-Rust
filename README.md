@@ -182,3 +182,51 @@
 - [匹配守卫](./learn_pattern9)
 
 - [@运算符](./learn_pattern10)
+
+## 不安全代码介绍
+
+- [不安全代码介绍](https://www.bilibili.com/read/cv4915116)
+
+- [解引用裸指针](./learn_unsafe1)
+- [不安全函数调用方法](./learn_unsafe2)
+- [不安全函数及FFI rust 调用 C 函数](./learn_unsafe3)
+
+- [c 函数调用rust](./learn_unsafe4)  https://www.bilibili.com/read/cv4948383
+- [访问修改静态变量](./learn_unsafe5)
+
+- [实现不安全的trait](./learn_unsafe6)
+
+## 关联类型
+
+- [在trait定义中指定站位符](./learn_htrait1)
+
+- [默认泛型参数与运算符重载](./learn_htrait2)
+- [完全限定语法](./learn_htrait3)
+
+- [父trait](./learn_htrait4)
+- [newtype模式](./learn_htrait5)
+
+## 类型
+
+- [类型别名](./learn_htype1)
+
+- [never type 介绍](./learn_htype2)
+- [动态大小类型和Sized trait](./learn_htype3)
+
+## 高级函数和闭包
+
+- [函数指针](./learn_hfn1)
+
+- [返回闭包](./learn_hfn2)
+
+
+
+## 宏
+
+- [宏介绍](https://www.bilibili.com/read/cv5129293)
+
+- [声明宏 ](./learn_macro1) https://www.bilibili.com/read/cv5151988
+
+- [自定义derive宏](./learn_macro2)  https://www.bilibili.com/read/cv5160408
+
+- 类属性宏和类函数宏
