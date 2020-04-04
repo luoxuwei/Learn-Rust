@@ -48,28 +48,28 @@
 - [有条件的实现 trait 类比 类的继承](./learn_trait5)
 
 ## 生命周期
-- [方法中的生命周期](./learn_life1)
-- [生命周期标注省略](./learn_life2)
-- [结构体中的生命周期](./learn_life3)
-- [函数中的生命周期](./learn_life4)
+- [方法中的生命周期](./learn_life1/src/main.rs)
+- [生命周期标注省略](./learn_life2/src/main.rs)
+- [结构体中的生命周期](./learn_life3/src/main.rs)
+- [函数中的生命周期](./learn_life4/src/main.rs)
 - [为带有生命周期标注的struct实现trait的问题](https://www.bilibili.com/read/cv4263006)
 
 ## 闭包
-- [闭包](./learn_closure1)
-- [闭包的例子](./learn_closure2)
-- [闭包获取环境中的变量](./learn_closure3)
+- [闭包](./learn_closure1/src/main.rs)
+- [闭包的例子](./learn_closure2/src/main.rs)
+- [闭包获取环境中的变量](./learn_closure3/src/main.rs)
 
 ## 迭代器
-- [迭代器](./learn_iter1)
-- [自定义迭代器](./learn_iter2)
+- [迭代器](./learn_iter1/src/main.rs)
+- [自定义迭代器](./learn_iter2/src/main.rs)
 
 ## cargo 自定义构建
 - [cargo自定义构建](./learn_cargo1)
 
 ## 包的使用和发布
-- 使用别人的包
-- 文档注释
-- crate的发布与撤回
+- [使用别人的包](https://www.bilibili.com/read/cv4431403)
+- [文档注释](https://www.bilibili.com/read/cv4441798)
+- [crate的发布与撤回](https://www.bilibili.com/read/cv4462484)
 
 ## Cargo 工作空间
 - [Cargo 工作空间](./rust-workspace)
@@ -81,3 +81,104 @@
 ## 文件读写
 
 - [文件读写](https://www.bilibili.com/read/cv4256536)
+
+## BOX
+
+- [box介绍](./learn_box/src/main.rs)
+- [使用box](./learn_box1/src/main.rs)
+- [解引用](./learn_deref/src/main.rs)
+- [解引用多态](./learn_deref1/src/main.rs)
+
+## drop trait 
+
+- [drop trait 清理代码](./learn_drop/src/main.rs)
+- [drop提前释放](./learn_drop1/src/main.rs)
+
+## Rc智能指针
+
+- [Rc智能指针使用](./learn_rc1/src/main.rs)
+- [Rc智能指针深入](./learn_rc2/src/main.rs)
+
+## RefCell
+
+- [RefCell介绍](./learn_refcell/src/main.rs)
+
+## 引用循环
+
+- [引用循环](./learn_loop_ref/src/main.rs)
+
+- [弱引用](./learn_loop_ref2/src/main.rs)
+
+- [树形结构](./learn_weak1/src/main.rs)
+- [树形结构](./learn_weak2/src/main.rs)
+
+## 多线程
+
+- [线程与move闭包](./learn_thread2/src/main.rs)
+- [等待线程结束](./learn_thread/src/main.rs)
+
+## 通道
+
+- [通道介绍](./learn_channel/src/main.rs)
+
+- [send move](./learn_channel2/src/main.rs)
+
+- [发送多个值](./learn_channel3/src/main.rs)
+
+- [多个生成者单个消费者](./learn_channel4/src/main.rs)
+
+## 互斥器
+
+- [互斥器介绍](./learn_thread3/src/main.rs)
+- [多线程间使用互斥器](./learn_thread4/src/main.rs)
+
+
+
+## send和sync trait 介绍
+
+- [send 和 sync trait 介绍](https://www.bilibili.com/read/cv4754537)
+
+## 面向对象
+
+- [对象](./learn_oo/src/main.rs)
+
+- [封装](./learn_oo1)
+
+
+
+## trait 对象
+
+- [trait 对象](./learn_oo2)
+
+- [非对象安全](./learn_oo3)
+
+
+
+## 模式
+
+- [模式](./learn_pattern)
+
+## 模式的可反驳和不可反驳
+
+- [模式的可反驳和不可反驳](./learn_pattern1)
+
+##  所有模式语法
+
+- [字面/命名变量/多个模式](./learn_pattern2)
+- [...= 匹配](./learn_pattern2)
+
+- [解构并分解结构体值](./learn_pattern3)
+
+- [解构枚举类型](./learn_pattern4)
+
+- [解构嵌套枚举类型](./learn_pattern5)
+
+- [解构嵌套的结构体和元组](./learn_pattern6)
+
+- [用下划线忽略模式中的值](./learn_pattern7)
+
+- [用点点忽略模式中的值](./learn_pattern8)
+
+- [匹配守卫](./learn_pattern9)
+
+- [@运算符](./learn_pattern10)
