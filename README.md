@@ -13,8 +13,8 @@
 - [slice](./learn_slice)
 
 ## 结构体
-- [Rust结构体](./learn_stru/main.rs)
-- [Rust方法](./learn_stru/main1.rs)
+- [Rust结构体](./learn_stru/src/main.rs)
+- [Rust方法](./learn_stru/src/main1.rs)
 
 ## 枚举与模式匹配
 - [枚举与模式匹配](./learn_enum)
