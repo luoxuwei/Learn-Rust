@@ -230,3 +230,9 @@
 - [自定义derive宏](./learn_macro2)  https://www.bilibili.com/read/cv5160408
 
 - 类属性宏和类函数宏
+
+## 实战
+
+[rust-algorithms](https://github.com/EbTech/rust-algorithms)
+
+[TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)
