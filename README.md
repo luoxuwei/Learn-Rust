@@ -228,7 +228,7 @@ fn main() {
 
 ## 所有权、引用、slice
 - [所有权](./rust-own/README.md)
-- [引用](./rust-ref)
+- [引用](./rust-ref/README.md)
 - [slice](./learn_slice)
 
 ## 结构体
