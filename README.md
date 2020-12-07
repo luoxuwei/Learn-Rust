@@ -240,7 +240,7 @@ fn main() {
 - [Option](./doc/option.md)
 
 ## vector、String、HashMap
-- [vector](./learn_vector)
+- [vector](./doc/vector.md)
 - [String](./learn_string)
 - [HashMap](./learn_hashmap)
 
