@@ -245,8 +245,8 @@ fn main() {
 - [HashMap](./doc/hashmap.md)
 
 ## 包、模块
-- [包](./learn_crate)
-- 模块
+- [包/模块](./doc/crate.md)
+- [例子](./demo/crate)
 
 ## 错误处理
 - [错误处理](./learn_err1)
