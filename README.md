@@ -227,17 +227,17 @@ fn main() {
 ```
 
 ## 所有权、引用、slice
-- [所有权](./rust-own/README.md)
-- [引用](./rust-ref/README.md)
-- [slice](./learn_slice/README.md)
+- [所有权](./doc/own.md)
+- [引用](./doc/ref.md)
+- [slice](./doc/slice.md)
 
 ## 结构体
-- [Rust结构体](./learn_stru/src/main.rs)
-- [Rust方法](./learn_stru/src/main1.rs)
+- [Rust结构体](./doc/stru.md)
+- [Rust方法](./doc/stru_method.md)
 
 ## 枚举与模式匹配
-- [枚举与模式匹配](./learn_enum)
-- [Option](./learn_option)
+- [枚举与模式匹配](./doc/enum.md)
+- [Option](./doc/option.md)
 
 ## vector、String、HashMap
 - [vector](./learn_vector)

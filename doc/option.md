@@ -1,3 +1,4 @@
+```rust
 //1、Option是标准库定义的一个枚举，形式：
 //enum Option<T> {
 //  Some(T),
@@ -5,9 +6,6 @@
 //}
 //
 //2、使用方式
-//
-//知识点拾遗——Option 将其中的引用转换为值
-//https://www.bilibili.com/read/cv4240813
 fn main() {
     let some_number = Some(5);
     let some_string = Some(String::from("a string"));
@@ -50,3 +48,23 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
         Some(x) => Some(x+1),
     }
 }
+```
+
+知识点拾遗——Option 将其中的引用转换为值
+
+```rust
+fn main() {                                                                                        
+      let x = 123u8;         
+      let y: Option<&u8> = Some(&x);  
+      let z: Option<u8> = y.copied(); 
+
+      if let Some(xx) = z {
+          println!("xx == {}", xx);
+      }
+      println!("Hello, world!");
+ }
+
+//在上述代码中，通过y.copied将引用转换为值，这在实际项目中非常实用。
+//copied为option的一个方法，想详细研究option方法的可以参考文档https://doc.rust-//lang.org/std/option/enum.Option.html
+```
+
