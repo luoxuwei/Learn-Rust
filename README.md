@@ -242,7 +242,7 @@ fn main() {
 ## vector、String、HashMap
 - [vector](./doc/vector.md)
 - [String](./doc/string.md)
-- [HashMap](./learn_hashmap)
+- [HashMap](./doc/hashmap.md)
 
 ## 包、模块
 - [包](./learn_crate)
