@@ -241,7 +241,7 @@ fn main() {
 
 ## vector、String、HashMap
 - [vector](./doc/vector.md)
-- [String](./learn_string)
+- [String](./doc/string.md)
 - [HashMap](./learn_hashmap)
 
 ## 包、模块

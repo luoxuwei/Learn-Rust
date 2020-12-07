@@ -1,6 +1,5 @@
 ```rust
 
-//7、使用枚举
 fn main() {
     //1.创建空的vector: Vec<T>
     //let v: Vec<i32> = Vec::new();
