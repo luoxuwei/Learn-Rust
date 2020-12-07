@@ -21,6 +21,10 @@ fn main() {
 
     let sum = x + temp;
     println!("sum = {}", sum);
+    
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+    let sum = x + y; //error，因为类型不一样
 
     //let result = plus_one(y);
     //match result {
@@ -47,6 +51,30 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
         None => None,
         Some(x) => Some(x+1),
     }
+}
+```
+3、使用Option主要是用来对空值进行处理的，在rust里面就必须将空值放入Option，因此能减少bug
+
+4、匹配
+```rust
+fn plus_one(x: Option<i32>) -> Option<i32> {
+match x {
+None => None,
+Some(i) => Some(i + 1),
+}
+}
+
+let five = Some(5);
+let six = plus_one(five);
+let none = plus_one(None);
+```
+
+以下代码错误，因为匹配没有处理完：
+```rust
+fn plus_one(x: Option<i32>) -> Option<i32> {
+match x {
+Some(i) => Some(i + 1),
+}
 }
 ```
 
