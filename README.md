@@ -67,7 +67,7 @@
 - [自定义迭代器](./doc/iter.md)
 
 ## cargo 自定义构建
-- [cargo自定义构建](./learn_cargo1)
+- [cargo自定义构建](./doc/cargo.md)
 
 ## 包的使用和发布
 - [使用别人的包](https://www.bilibili.com/read/cv4431403)
