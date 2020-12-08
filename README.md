@@ -70,9 +70,9 @@
 - [cargo自定义构建](./doc/cargo.md)
 
 ## 包的使用和发布
-- [使用别人的包](https://www.bilibili.com/read/cv4431403)
-- [文档注释](https://www.bilibili.com/read/cv4441798)
-- [crate的发布与撤回](https://www.bilibili.com/read/cv4462484)
+- [使用别人的包](./doc/cargo_comment_crate.md)
+- [文档注释](./doc/cargo_comment_crate.md)
+- [crate的发布与撤回](./doc/cargo_comment_crate.md)
 
 ## Cargo 工作空间
 - [Cargo 工作空间](./rust-workspace)
