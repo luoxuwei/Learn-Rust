@@ -84,12 +84,12 @@
 
 ## 文件读写
 
-- [文件读写](https://www.bilibili.com/read/cv4256536)
+- [文件读写](./doc/file_io.md)
 
 ## BOX
 
-- [box介绍](./learn_box/src/main.rs)
-- [使用box](./learn_box1/src/main.rs)
+- [box介绍](./doc/box.md)
+- [使用box](./doc/box.md)
 - [解引用](./learn_deref/src/main.rs)
 - [解引用多态](./learn_deref1/src/main.rs)
 
