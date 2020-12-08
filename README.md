@@ -256,15 +256,15 @@ fn main() {
 - [测试](./doc/test.md)
 
 ## 泛型
-- [函数中使用泛型](./rust-T)
+- [函数中使用泛型](./doc/generics.md)
 - 结构体和方法中使用泛型
 
 ## 特征
-- [trait 默认实现](./learn_trait1)
-- [trait bound](./learn_trait2)
-- [trait 作为返回值](./learn_trait3)
-- [有条件的实现方法 泛型约束](./learn_trait4)
-- [有条件的实现 trait 类比 类的继承](./learn_trait5)
+- [trait 默认实现](./doc/trait.md)
+- [trait bound](./doc/trait.md)
+- [trait 作为返回值](./doc/trait.md)
+- [有条件的实现方法 泛型约束](./doc/trait.md)
+- [有条件的实现 trait 类比 类的继承](./doc/trait.md)
 
 ## 生命周期
 - [方法中的生命周期](./learn_life1/src/main.rs)
