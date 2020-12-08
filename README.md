@@ -90,8 +90,8 @@
 
 - [box介绍](./doc/box.md)
 - [使用box](./doc/box.md)
-- [解引用](./learn_deref/src/main.rs)
-- [解引用多态](./learn_deref1/src/main.rs)
+- [解引用](./doc/deref.md)
+- [解引用多态](./doc/deref.md)
 
 ## drop trait 
 
