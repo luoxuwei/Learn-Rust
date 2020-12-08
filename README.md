@@ -111,7 +111,7 @@
 
 - [引用循环](./doc/loop_ref.md)
 
-- [弱引用](./learn_loop_ref2/src/main.rs)
+- [弱引用](./doc/weak_ref.md)
 
 - [树形结构](./learn_weak1/src/main.rs)
 - [树形结构](./learn_weak2/src/main.rs)
