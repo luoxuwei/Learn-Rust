@@ -95,13 +95,13 @@
 
 ## drop trait 
 
-- [drop trait 清理代码](./doc/drop.md)
-- [drop提前释放](./doc/drop.md)
+- [drop trait 清理代码](./doc/drop_trait.md)
+- [drop提前释放](./doc/drop_trait.md)
 
 ## Rc智能指针
 
-- [Rc智能指针使用](./learn_rc1/src/main.rs)
-- [Rc智能指针深入](./learn_rc2/src/main.rs)
+- [Rc智能指针使用](./doc/rc.md)
+- [Rc智能指针深入](./doc/rc.md)
 
 ## RefCell
 
