@@ -51,11 +51,11 @@
 - [有条件的实现 trait 类比 类的继承](./doc/trait.md)
 
 ## 生命周期
-- [方法中的生命周期](./learn_life1/src/main.rs)
-- [生命周期标注省略](./learn_life2/src/main.rs)
-- [结构体中的生命周期](./learn_life3/src/main.rs)
-- [函数中的生命周期](./learn_life4/src/main.rs)
-- [为带有生命周期标注的struct实现trait的问题](https://www.bilibili.com/read/cv4263006)
+- [方法中的生命周期](./doc/lifetime.md)
+- [生命周期标注省略](./doc/lifetime.md)
+- [结构体中的生命周期](./doc/lifetime.md)
+- [函数中的生命周期](./doc/lifetime.md)
+- [为带有生命周期标注的struct实现trait的问题](./doc/lifetime.md)
 
 ## 闭包
 - [闭包](./learn_closure1/src/main.rs)
