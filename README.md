@@ -75,8 +75,9 @@
 - [crate的发布与撤回](./doc/cargo_comment_crate.md)
 
 ## Cargo 工作空间
-- [Cargo 工作空间](./rust-workspace)
+- [Cargo 工作空间](./doc/workspace.md)
   cargo run -p addr
+- [例子](./demo/addr)
 
 ## 智能指针
 - [智能指针](./rust-pointer)
