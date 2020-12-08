@@ -249,8 +249,8 @@ fn main() {
 - [例子](./demo/crate)
 
 ## 错误处理
-- [错误处理](./learn_err1)
-- [传播错误](./learn_err2)
+- [错误处理](./doc/error.md)
+- [传播错误](./doc/error.md)
 
 ## 测试
 - [测试](./learn_test)
