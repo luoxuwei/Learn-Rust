@@ -253,7 +253,7 @@ fn main() {
 - [传播错误](./doc/error.md)
 
 ## 测试
-- [测试](./learn_test)
+- [测试](./doc/test.md)
 
 ## 泛型
 - [函数中使用泛型](./rust-T)
