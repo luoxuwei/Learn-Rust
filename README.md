@@ -58,9 +58,9 @@
 - [为带有生命周期标注的struct实现trait的问题](./doc/lifetime.md)
 
 ## 闭包
-- [闭包](./learn_closure1/src/main.rs)
-- [闭包的例子](./learn_closure2/src/main.rs)
-- [闭包获取环境中的变量](./learn_closure3/src/main.rs)
+- [闭包](./doc/closure.md)
+- [闭包的例子](./doc/closure.md)
+- [闭包获取环境中的变量](./doc/closure.md)
 
 ## 迭代器
 - [迭代器](./learn_iter1/src/main.rs)
