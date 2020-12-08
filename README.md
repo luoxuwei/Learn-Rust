@@ -80,7 +80,7 @@
 - [例子](./demo/addr)
 
 ## 智能指针
-- [智能指针](./rust-pointer)
+- [智能指针](./doc/pointer.md)
 
 ## 文件读写
 
