@@ -138,3 +138,75 @@ description = "some thing descript the package"
 
 cargo yank --vers 0.1.0
 
+# 文档注释（pub use 导出合适的公有 API）
+
+使用pub use导出合适的公有API
+
+ 例子1：  
+
+```rust
+//! # Art 
+//! 
+//! 一个描述美术信息的库。 
+pub mod kinds { 
+/// 采用 RGB 色彩模式的主要颜色。 
+  pub enum PrimaryColor { 
+    Red, 
+    Yellow, 
+    Blue, 
+  } 
+/// 采用 RGB 色彩模式的次要颜色。 
+  pub enum SecondaryColor { 
+    Orange, 
+    Green, 
+    Purple, 
+  } 
+}  
+pub mod utils { 
+  use crate::kinds::*; 
+/// 等量的混合两个主要颜色 
+/// 来创建一个次要颜色。 
+  pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> SecondaryColor { 
+    SecondaryColor::Orange 
+  }
+}   
+//========================================
+```
+
+ 例子2：
+
+```rust
+//! # Art 
+//! 
+//! 一个描述美术信息的库。 
+//+++++以下为例子2添加部分+++++++++ 
+pub use kinds::PrimaryColor; 
+pub use kinds::SecondaryColor; 
+pub use utils::mix; 
+//+++++++++++++++++++++++++++++++ 
+pub mod kinds { 
+/// 采用 RGB 色彩模式的主要颜色。 
+  pub enum PrimaryColor { 
+    Red, 
+    Yellow, 
+    Blue, 
+  } 
+/// 采用 RGB 色彩模式的次要颜色。 
+  pub enum SecondaryColor { 
+    Orange, 
+    Green, 
+    Purple, 
+  } 
+}  
+pub mod utils {
+  use crate::kinds::*; 
+/// 等量的混合两个主要颜色 
+/// 来创建一个次要颜色。 
+  pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> SecondaryColor { 
+    SecondaryColor::Orange 
+  } 
+} 
+```
+
+ 运行cargo doc --open后观察两者的不同
+
