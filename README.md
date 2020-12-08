@@ -63,8 +63,8 @@
 - [闭包获取环境中的变量](./doc/closure.md)
 
 ## 迭代器
-- [迭代器](./learn_iter1/src/main.rs)
-- [自定义迭代器](./learn_iter2/src/main.rs)
+- [迭代器](./doc/iter.md)
+- [自定义迭代器](./doc/iter.md)
 
 ## cargo 自定义构建
 - [cargo自定义构建](./learn_cargo1)
