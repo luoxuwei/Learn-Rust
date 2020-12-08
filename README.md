@@ -109,7 +109,7 @@
 
 ## 引用循环
 
-- [引用循环](./learn_loop_ref/src/main.rs)
+- [引用循环](./doc/loop_ref.md)
 
 - [弱引用](./learn_loop_ref2/src/main.rs)
 
