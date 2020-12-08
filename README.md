@@ -95,8 +95,8 @@
 
 ## drop trait 
 
-- [drop trait 清理代码](./learn_drop/src/main.rs)
-- [drop提前释放](./learn_drop1/src/main.rs)
+- [drop trait 清理代码](./doc/drop.md)
+- [drop提前释放](./doc/drop.md)
 
 ## Rc智能指针
 

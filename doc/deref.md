@@ -54,7 +54,7 @@ impl<T> MyBox<T> {
 
 impl<T> Deref for MyBox<T> {
     type Target = T;
-    fn deref(&self) -> &T {
+    fn deref(&self) -> &T {//注意：此处返回值是引用，因为一般并不希望解引用获取MyBox<T>内部值的所有权
         &self.0
     }
 }
@@ -64,7 +64,7 @@ fn main() {
     let y = MyBox::new(x);
 
     assert_eq!(5, x);
-    assert_eq!(5, *y);
+    assert_eq!(5, *y);//实现Deref trait后即可解引用，使用*y实际等价于 *(y.deref())
 
     let m = MyBox::new(String::from("Rust"));
     //此处解引用时，强制多态，将&String变为&str，否则的话此处需要：hello(&(*m)[..]); 
