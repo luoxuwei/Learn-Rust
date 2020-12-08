@@ -113,8 +113,7 @@
 
 - [弱引用](./doc/weak_ref.md)
 
-- [树形结构](./learn_weak1/src/main.rs)
-- [树形结构](./learn_weak2/src/main.rs)
+- [树形结构](./doc/weak_ref.md)
 
 ## 多线程
 
