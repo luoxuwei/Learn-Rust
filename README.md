@@ -105,7 +105,7 @@
 
 ## RefCell
 
-- [RefCell介绍](./learn_refcell/src/main.rs)
+- [RefCell介绍](./doc/refcell.md)
 
 ## 引用循环
 
