@@ -132,10 +132,8 @@
 
 ## 互斥器
 
-- [互斥器介绍](./learn_thread3/src/main.rs)
-- [多线程间使用互斥器](./learn_thread4/src/main.rs)
-
-
+- [互斥器介绍](./doc/mutex.md)
+- [多线程间使用互斥器](./doc/mutex.md)
 
 ## send和sync trait 介绍
 
