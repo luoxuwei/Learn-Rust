@@ -137,7 +137,7 @@
 
 ## send和sync trait 介绍
 
-- [send 和 sync trait 介绍](https://www.bilibili.com/read/cv4754537)
+- [send 和 sync trait 介绍](./doc/sync_send_trait.md)
 
 ## 面向对象
 
