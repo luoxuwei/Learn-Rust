@@ -195,13 +195,13 @@
 
 ## 关联类型
 
-- [在trait定义中指定站位符](./learn_htrait1)
+- [在trait定义中指定站位符](./doc/trait_plus.md)
 
-- [默认泛型参数与运算符重载](./learn_htrait2)
-- [完全限定语法](./learn_htrait3)
+- [默认泛型参数与运算符重载](./doc/trait_plus.md)
+- [完全限定语法](./doc/trait_plus.md)
 
-- [父trait](./learn_htrait4)
-- [newtype模式](./learn_htrait5)
+- [父trait](./doc/trait_plus.md)
+- [newtype模式](./doc/trait_plus.md)
 
 ## 类型
 
