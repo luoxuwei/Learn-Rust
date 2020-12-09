@@ -141,11 +141,9 @@
 
 ## 面向对象
 
-- [对象](./learn_oo/src/main.rs)
+- [对象](./doc/oo.md)
 
-- [封装](./learn_oo1)
-
-
+- [封装](./doc/oo.md)
 
 ## trait 对象
 
