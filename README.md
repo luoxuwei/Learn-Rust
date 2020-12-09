@@ -182,16 +182,16 @@
 
 ## 不安全代码介绍
 
-- [不安全代码介绍](https://www.bilibili.com/read/cv4915116)
+- [不安全代码介绍](./doc/unsafe.md)
 
-- [解引用裸指针](./learn_unsafe1)
-- [不安全函数调用方法](./learn_unsafe2)
-- [不安全函数及FFI rust 调用 C 函数](./learn_unsafe3)
+- [解引用裸指针](./doc/unsafe.md)
+- [不安全函数调用方法](./doc/unsafe.md)
+- [不安全函数及FFI rust 调用 C 函数](./doc/unsafe.md)
 
-- [c 函数调用rust](./learn_unsafe4)  https://www.bilibili.com/read/cv4948383
-- [访问修改静态变量](./learn_unsafe5)
+- [c 函数调用rust](./doc/unsafe.md)
+- [访问修改静态变量](./doc/unsafe.md)
 
-- [实现不安全的trait](./learn_unsafe6)
+- [实现不安全的trait](./doc/unsafe.md)
 
 ## 关联类型
 
