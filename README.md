@@ -161,24 +161,24 @@
 
 ##  所有模式语法
 
-- [字面/命名变量/多个模式](./learn_pattern2)
-- [...= 匹配](./learn_pattern2)
+- [字面/命名变量/多个模式](./doc/pattern_all.md)
+- [...= 匹配](./doc/pattern_all.md)
 
-- [解构并分解结构体值](./learn_pattern3)
+- [解构并分解结构体值](./doc/pattern_all.md)
 
-- [解构枚举类型](./learn_pattern4)
+- [解构枚举类型](./doc/pattern_all.md)
 
-- [解构嵌套枚举类型](./learn_pattern5)
+- [解构嵌套枚举类型](./doc/pattern_all.md)
 
-- [解构嵌套的结构体和元组](./learn_pattern6)
+- [解构嵌套的结构体和元组](./doc/pattern_all.md)
 
-- [用下划线忽略模式中的值](./learn_pattern7)
+- [用下划线忽略模式中的值](./doc/pattern_all.md)
 
-- [用点点忽略模式中的值](./learn_pattern8)
+- [用点点忽略模式中的值](./doc/pattern_all.md)
 
-- [匹配守卫](./learn_pattern9)
+- [匹配守卫](./doc/pattern_all.md)
 
-- [@运算符](./learn_pattern10)
+- [@运算符](./doc/pattern_all.md)
 
 ## 不安全代码介绍
 
