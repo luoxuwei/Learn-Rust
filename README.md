@@ -147,11 +147,9 @@
 
 ## trait 对象
 
-- [trait 对象](./learn_oo2)
+- [trait 对象](./doc/oo_trait.md)
 
-- [非对象安全](./learn_oo3)
-
-
+- [非对象安全](./doc/oo_trait.md)
 
 ## 模式
 
