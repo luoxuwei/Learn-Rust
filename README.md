@@ -122,13 +122,13 @@
 
 ## 通道
 
-- [通道介绍](./learn_channel/src/main.rs)
+- [通道介绍](./doc/channel.md)
 
-- [send move](./learn_channel2/src/main.rs)
+- [send move](./doc/channel.md)
 
-- [发送多个值](./learn_channel3/src/main.rs)
+- [发送多个值](./doc/channel.md)
 
-- [多个生成者单个消费者](./learn_channel4/src/main.rs)
+- [多个生成者单个消费者](./doc/channel.md)
 
 ## 互斥器
 
