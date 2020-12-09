@@ -205,10 +205,10 @@
 
 ## 类型
 
-- [类型别名](./learn_htype1)
+- [类型别名](./doc/htype.md)
 
-- [never type 介绍](./learn_htype2)
-- [动态大小类型和Sized trait](./learn_htype3)
+- [never type 介绍](./doc/htype.md)
+- [动态大小类型和Sized trait](./doc/htype.md)
 
 ## 高级函数和闭包
 
