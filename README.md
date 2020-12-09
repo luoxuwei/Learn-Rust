@@ -117,8 +117,8 @@
 
 ## 多线程
 
-- [线程与move闭包](./learn_thread2/src/main.rs)
-- [等待线程结束](./learn_thread/src/main.rs)
+- [线程与move闭包](./doc/thread.md)
+- [等待线程结束](./doc/thread.md)
 
 ## 通道
 
@@ -239,3 +239,4 @@
 [rust-algorithms](https://github.com/EbTech/rust-algorithms)
 
 [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)
+
