@@ -212,21 +212,17 @@
 
 ## 高级函数和闭包
 
-- [函数指针](./learn_hfn1)
+- [函数指针](./doc/hfn.md)
 
-- [返回闭包](./learn_hfn2)
-
-
+- [返回闭包](./doc/hfn.md)
 
 ## 宏
 
-- [宏介绍](https://www.bilibili.com/read/cv5129293)
-
-- [声明宏 ](./learn_macro1) https://www.bilibili.com/read/cv5151988
-
-- [自定义derive宏](./learn_macro2)  https://www.bilibili.com/read/cv5160408
-
-- 类属性宏和类函数宏
+- [宏介绍](./doc/macro.md)
+- [声明宏 ](./doc/macro.md)
+- [自定义derive宏](./doc/macro.md)
+- [类属性宏和类函数宏](./doc/macro.md)
+- [例子](./demo/macro)
 
 ## 实战
 
