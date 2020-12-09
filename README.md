@@ -153,11 +153,11 @@
 
 ## 模式
 
-- [模式](./learn_pattern)
+- [模式](./doc/pattern.md)
 
 ## 模式的可反驳和不可反驳
 
-- [模式的可反驳和不可反驳](./learn_pattern1)
+- [模式的可反驳和不可反驳](./doc/refutability_refutability.md)
 
 ##  所有模式语法
 
